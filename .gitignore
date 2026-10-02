@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints / training artifacts (large binaries, regenerate by re-running the notebook)
+checkpoints/
+*.pt
+*.pth
+
+# OS cruft
+.DS_Store
